@@ -10,22 +10,26 @@
 <body>
      
      <header>
-          <ul>
-               <li><a href="">Github</a></li>
-               <li><a href="">portfolio</a></li>
-               <li><a href="">contact</a></li>
-          </ul>
+          <nav>
+               <ul>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+               </ul>
+          </nav>
      </header>
      <main>
           <section id="container">
                <h1>My new website</h1>
                <img src="./assets/images/image-1.png">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fugiat?</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nisi suscipit cum, exercitationem doloremque nulla iure? Impedit sapiente eligendi error, est magnam porro laudantium, natus facilis dolorem libero maxime necessitatibus nihil cum! Repellendus,</p>
           </section>
           <section id="contact">
+               <h2>Contact me</h2>
           <form>
-               <label>Name:<input type="text">
-               <label>Email:<input type="email">
+               <label for="name">Name:</label><input type="text" id="name" placeholder="Enter your name">
+               <label for="email">Email:</label><input type="email" id="email" placeholder="Enter your email">
+               <input type="button" value="Send" id="btn">
           </form>
           </section>
      </main>

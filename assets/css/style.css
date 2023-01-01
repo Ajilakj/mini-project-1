@@ -5,13 +5,15 @@
      box-sizing: border-box;
      /* border: 2px solid red; */
 }
+
 body{
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      background-color:azure;
      /* max-width: 1200px; */
 }
+
 header,footer{
-     background-color:darkblue;
+     background-color:rgb(11, 69, 11);
      height: 75px;
      width: 100vw;;
 }
@@ -20,7 +22,12 @@ header{
      position: fixed;
      top:0;
      left:0;
-     margin-bottom: 100px;
+}
+
+footer{
+     color:beige;
+     text-align: center;
+     padding:20px;
 }
 
 header ul li{
@@ -29,61 +36,61 @@ header ul li{
      padding: 15px;
      margin-right: 10px;
 }
+
 header ul li a{
      text-decoration: none;
      color: beige;
+}
+
+header div{
+     height: 10px;
+     background-color: rgb(224, 188, 57);
 }
 nav{
      display: flex;
      justify-content: space-between;
      align-items: center;
 }
+
 img{
      height: 250px;
      width: 250px;
      display: block;
      margin: 10px auto;
 }
+
 h1{
      font-size: 35px;
      color: beige;
      margin: 10px;
      /* padding: 10px; */
 }
+
+h2{
+     text-align:center;
+}
+
 main{
      margin:10px;
 }
+
 section{
      margin: 50px;
 }
-#about-me{
-     margin-top: 75px;
-     display: flex;
-     align-items: center;
-     /* border: 2px red solid; */
-}
-#about-me p,h2{
-     text-align: left;
-     margin: 25px;
-}
-#about-me img{
-     border: 2px solid red;
-     border-radius: 50%;
-}
-#projects{
-     display: flex;
-}
+
 figure{
-     border: 1px dotted royalblue;
-     margin:5px;
+     margin-top:100px;
      padding:10px;
 }
+
 #contact{
      margin: 2% 25%;
 }
+
 #contact h2{
      text-align: center;
 }
+
 form{
      border: 2px solid maroon;
      border-radius: 20px;
@@ -97,6 +104,7 @@ form input{
      padding: 5px;
      margin: 5px;
 }
+
 #btn{
      background-color:maroon;
      border-radius: 10px;
@@ -104,13 +112,10 @@ form input{
      width: 25%;
      margin: 5px 250px;
 }
+
 #btn:hover{
      background-color:rgb(152, 63, 63);
      color: silver;
      cursor: pointer;
 }
-footer{
-     color:beige;
-     text-align: center;
-     padding:20px;
-}
+

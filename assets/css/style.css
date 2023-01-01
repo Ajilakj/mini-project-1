@@ -57,6 +57,7 @@ section{
      margin: 50px;
 }
 #about-me{
+     margin-top: 75px;
      display: flex;
      align-items: center;
      /* border: 2px red solid; */
